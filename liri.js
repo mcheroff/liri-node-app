@@ -114,3 +114,16 @@ function textFileSearch(){
     });
 
 };
+
+switch (userCommand) {
+    case "my-tweets":
+        twitterSearch();
+        break;
+    case "spotify-this-song":
+        spotifySearch();
+        break;
+    case "movie-this":
+    	movieSearch();
+    case "do-what-it-says":
+        textFileSearch();
+}
